@@ -5297,6 +5297,203 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Sensor_Optical:LDR07"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -5.08 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LDR07"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Footprint" "OptoDevice:R_LDR_5.1x4.3mm_P3.4mm_Vertical"
+				(at 4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.tme.eu/de/Document/f2e3ad76a925811312d226c31da4cd7e/LDR07.pdf"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "light dependent resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "light dependent photo resistor LDR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R*LDR*5.1x4.3mm*P3.4mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LDR07_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.762) (xy -4.064 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.762) (xy -2.286 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.762) (xy -1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -2.286) (xy -4.064 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -2.286) (xy -2.286 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -2.286) (xy -1.524 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LDR07_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:2N7000"
 			(pin_names
 				(hide yes)
@@ -5698,6 +5895,18 @@
 		)
 	)
 	(rectangle
+		(start 203.2 128.27)
+		(end 240.03 185.42)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1b816c49-f33a-47db-8e4e-7e185c946489)
+	)
+	(rectangle
 		(start 12.7 128.27)
 		(end 52.07 175.26)
 		(stroke
@@ -5776,6 +5985,16 @@
 			)
 		)
 		(uuid "0ea50c43-d817-464f-b03c-471b9baf8212")
+	)
+	(text "PHOTORESISTOR"
+		(exclude_from_sim no)
+		(at 214.376 132.334 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3cc27fac-95d3-4582-93f8-0ebc4525d104")
 	)
 	(text "VIM4 HEADER"
 		(exclude_from_sim no)
@@ -5882,6 +6101,12 @@
 		(uuid "7c39299f-6717-485e-953b-11ab8c460f07")
 	)
 	(junction
+		(at 215.9 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85ddf588-9311-4905-96c7-992381b1d848")
+	)
+	(junction
 		(at 229.87 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5924,6 +6149,12 @@
 		(uuid "bc4f5471-f321-4c44-bad1-c42dc11236e1")
 	)
 	(junction
+		(at 219.71 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc62ac44-c442-4df8-82a3-e271ecac95a3")
+	)
+	(junction
 		(at 181.61 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5940,6 +6171,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "daf7e61c-1a29-430c-bc3e-7fdadc2e6c86")
+	)
+	(junction
+		(at 210.82 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc871d2a-8f80-4a89-a88e-c5211ef000fb")
 	)
 	(junction
 		(at 85.09 91.44)
@@ -6098,6 +6335,16 @@
 			(type default)
 		)
 		(uuid "02191fd3-fda3-447b-afd9-5d62cc57b555")
+	)
+	(wire
+		(pts
+			(xy 210.82 154.94) (xy 210.82 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c50f42-5ad6-4767-826d-ec4cb7386a7c")
 	)
 	(wire
 		(pts
@@ -6371,6 +6618,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 157.48) (xy 210.82 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2411dae4-c413-4ffa-ad1f-117154c3aada")
+	)
+	(wire
+		(pts
 			(xy 247.65 77.47) (xy 247.65 67.31)
 		)
 		(stroke
@@ -6448,6 +6705,16 @@
 			(type default)
 		)
 		(uuid "30b3ebef-5659-4d5f-bb92-7a61791567e9")
+	)
+	(wire
+		(pts
+			(xy 215.9 173.99) (xy 219.71 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3127df7c-eb5d-4eb7-b99e-1950cb0ca21c")
 	)
 	(wire
 		(pts
@@ -6641,6 +6908,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 157.48) (xy 210.82 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d668eb5-ea00-436d-89bd-938390ff34c1")
+	)
+	(wire
+		(pts
 			(xy 90.17 170.18) (xy 90.17 171.45)
 		)
 		(stroke
@@ -6771,6 +7048,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 165.1) (xy 219.71 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a77b2c1-2f7c-4769-875b-56720c9c867d")
+	)
+	(wire
+		(pts
 			(xy 138.43 38.1) (xy 147.32 38.1)
 		)
 		(stroke
@@ -6778,6 +7065,16 @@
 			(type default)
 		)
 		(uuid "4b712dad-8a87-4832-95bf-761fb385eba4")
+	)
+	(wire
+		(pts
+			(xy 215.9 175.26) (xy 215.9 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b8a509a-add1-4050-a7ac-8a43ca6fe000")
 	)
 	(wire
 		(pts
@@ -7021,6 +7318,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 167.64) (xy 210.82 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65ff635d-c738-4bba-89ad-216b6b334af9")
+	)
+	(wire
+		(pts
 			(xy 242.57 67.31) (xy 242.57 57.15)
 		)
 		(stroke
@@ -7098,6 +7405,16 @@
 			(type default)
 		)
 		(uuid "70d52f63-b5c5-4c76-ab55-3300007d20e8")
+	)
+	(wire
+		(pts
+			(xy 219.71 163.83) (xy 219.71 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71eb057b-b229-4b0a-b165-209e64a382ab")
 	)
 	(wire
 		(pts
@@ -7398,6 +7715,16 @@
 			(type default)
 		)
 		(uuid "868836cb-7f59-467d-9977-d60e6af61bb3")
+	)
+	(wire
+		(pts
+			(xy 210.82 173.99) (xy 215.9 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "870530d3-5ae0-4378-b1aa-9e3c4c0efd55")
 	)
 	(wire
 		(pts
@@ -8031,6 +8358,26 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 158.75) (xy 219.71 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0693a0b-ef53-4056-8d5f-d45ae3a75a71")
+	)
+	(wire
+		(pts
+			(xy 210.82 144.78) (xy 210.82 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d18910fb-c479-4042-9405-af0c172297e9")
+	)
+	(wire
+		(pts
 			(xy 172.72 54.61) (xy 180.34 54.61)
 		)
 		(stroke
@@ -8078,6 +8425,16 @@
 			(type default)
 		)
 		(uuid "d835343a-fe5e-4611-9501-411aeb8aa54d")
+	)
+	(wire
+		(pts
+			(xy 219.71 171.45) (xy 219.71 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8ddc29c-392e-491e-a9b3-2f6fca2491a5")
 	)
 	(wire
 		(pts
@@ -8341,6 +8698,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 165.1) (xy 226.06 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f217a361-a1b5-4da3-8f93-1d49594e627b")
+	)
+	(wire
+		(pts
 			(xy 140.97 73.66) (xy 180.34 73.66)
 		)
 		(stroke
@@ -8466,6 +8833,28 @@
 		(uuid "1110d783-95db-46a2-b8b4-7cc739b1709b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 184.0509 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3v3"
+		(shape input)
+		(at 210.82 144.78 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "112a3ade-ae70-4b9e-8f26-3d59149be617")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.82 138.4082 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8691,6 +9080,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC_SIG"
+		(shape input)
+		(at 226.06 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e5abde5-ddab-4e5d-aedf-ebf4f2403f20")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 236.7257 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -9329,6 +9740,75 @@
 			(project "MotorControl"
 				(path "/c17272df-bb38-44d5-9de0-abe2e6f0941d"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 219.71 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02148f44-787c-4ba8-9ccd-3e1706c90d0a")
+		(property "Reference" "C6"
+			(at 222.25 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 220.218 171.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 219.71 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c77733d7-ce40-4370-8659-4f1e141baee6")
+		)
+		(pin "2"
+			(uuid "eac2edf3-35a8-4b84-9cad-221491550528")
+		)
+		(instances
+			(project "mainboard"
+				(path "/c17272df-bb38-44d5-9de0-abe2e6f0941d"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -11167,6 +11647,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Sensor_Optical:LDR07")
+		(at 210.82 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6636c1d0-b142-42af-90c3-772a5e23f5af")
+		(property "Reference" "R9"
+			(at 213.36 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LDR07"
+			(at 213.36 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "OptoDevice:R_LDR_5.1x4.3mm_P3.4mm_Vertical"
+			(at 215.265 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.tme.eu/de/Document/f2e3ad76a925811312d226c31da4cd7e/LDR07.pdf"
+			(at 210.82 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "light dependent resistor"
+			(at 210.82 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b6529fdf-e2d7-41e0-9f16-1d4bd7f37205")
+		)
+		(pin "1"
+			(uuid "1a435d5f-8dae-48db-90a7-9851015b926b")
+		)
+		(instances
+			(project "mainboard"
+				(path "/c17272df-bb38-44d5-9de0-abe2e6f0941d"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 180.34 26.67 180)
 		(unit 1)
@@ -11631,6 +12181,71 @@
 			(project "MotorControl"
 				(path "/c17272df-bb38-44d5-9de0-abe2e6f0941d"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 215.9 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91e882d3-0598-4d6b-bf11-8c2c987d92d9")
+		(property "Reference" "#PWR020"
+			(at 215.9 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 216.154 179.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b145ef0d-9db3-418c-92b0-91cb3b5527bf")
+		)
+		(instances
+			(project "mainboard"
+				(path "/c17272df-bb38-44d5-9de0-abe2e6f0941d"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -12849,6 +13464,145 @@
 			(project "MotorControl"
 				(path "/c17272df-bb38-44d5-9de0-abe2e6f0941d"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 219.71 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e713cce9-a84e-4312-8631-c213b5552832")
+		(property "Reference" "R10"
+			(at 222.25 160.0199 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 222.25 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 219.71 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b702399b-6727-454e-9dca-a71570c859c8")
+		)
+		(pin "1"
+			(uuid "7f69c74f-5eed-43af-8770-6fcb6cc5ce87")
+		)
+		(instances
+			(project "mainboard"
+				(path "/c17272df-bb38-44d5-9de0-abe2e6f0941d"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 210.82 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff52e15b-4e81-46a1-9239-677c48426e41")
+		(property "Reference" "R8"
+			(at 213.36 163.8299 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 213.614 166.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 210.82 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eda34bd4-4696-46e7-a754-318f73e14979")
+		)
+		(pin "1"
+			(uuid "9ccf0ce9-61b0-4c0c-8e3f-9f22013137f3")
+		)
+		(instances
+			(project "mainboard"
+				(path "/c17272df-bb38-44d5-9de0-abe2e6f0941d"
+					(reference "R8")
 					(unit 1)
 				)
 			)
