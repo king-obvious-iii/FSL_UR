@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "mainboard.kicad_prl",
+    "filename": "displayboard.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -97,7 +97,7 @@
       91,
       71,
       91,
-      91
+      718
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
